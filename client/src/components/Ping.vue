@@ -2,15 +2,15 @@
   <div>
     <p>{{ msg }}</p>
   </div>
-</template
+</template>s
 
 <script>
 export default {
   name: 'Ping',
-  date() {
-    dreturn {
-      msg: 'Hello',
+  data() {
+    return {
+      msg: 'Hello!',
     };
-  };
+  },
 };
 </script>
