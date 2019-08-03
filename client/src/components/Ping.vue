@@ -20,10 +20,10 @@ export default {
       axios.get(path)
         .then((res) => {
           this.msg = res.data;
-        })
-        .catch((error) => {
-          console.error(error);
         });
+        // .catch((error) => {
+        //   console.error(error);
+        // });
     },
   },
   created() {
